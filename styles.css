@@ -16,8 +16,18 @@ html, body {
     align-items: center;
 }
 
+#heart {
+    transform: rotate(45deg);
+}
+
 #heart div {
     background-color: red;
     width: 100px;
     height: 100px;
+}
+
+#heart div:last-child {
+    position: relative;
+    left: -100px;
+    top: -100px;
 }
